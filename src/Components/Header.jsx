@@ -13,7 +13,7 @@ const Header = () => {
       <div className="bg-accent flex flex-col">
         <nav className="container head py-3 flex justify-center md:justify-between items-center">
           <h2 className="capitalize hidden md:block">
-            the thrilling world of Killer Kermi
+            the thrilling world of Killer Kermit
           </h2>
           <div className="flex gap-3 items-center">
             <a href="" className="text-3xl hover:text-tertiary">
@@ -33,7 +33,7 @@ const Header = () => {
         <div className="bg-secondary flex flex-col">
           <nav className="container  head py-3 flex justify-center tracking-wide text-tertiary items-center">
             <a href="" className="text-4xl font-primary flex items-center gap-2">
-             <img src={logo} alt="" className="w-[3rem] rounded-full"/> killer kermi
+             <img src={logo} alt="" className="w-[3rem] rounded-full"/> killer kermit
             </a>
           </nav>
         </div>
