@@ -18,13 +18,15 @@ const Hero = () => {
           </p>
           <div className="flex-col md:flex-row gap-4 flex  items-center">
             <a
-              href=""
+              href="https://t.me/KillerKermitEth"
+              target="_blank"
               className="text-3xl hover:text-secondary font-secondary px-6 py-3 bg-tertiary"
             >
               telegram
             </a>
             <a
-              href=""
+              href="https://twitter.com/kkermiteth"
+              target="_blank"
               className="text-3xl hover:text-secondary font-secondary px-6 py-3 bg-tertiary"
             >
               twitter
@@ -32,7 +34,11 @@ const Hero = () => {
           </div>
         </article>
         <article>
-          <img src={Logo2} alt="" className="md:w-[25rem]  mx-auto rounded-full" />
+          <img
+            src={Logo2}
+            alt=""
+            className="md:w-[25rem]  mx-auto rounded-full"
+          />
         </article>
       </div>
     </section>

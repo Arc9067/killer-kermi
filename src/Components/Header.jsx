@@ -16,10 +16,17 @@ const Header = () => {
             the thrilling world of Killer Kermit
           </h2>
           <div className="flex gap-3 items-center">
-            <a href="" className="text-3xl hover:text-tertiary">
+            <a
+              href="https://t.me/KillerKermitEth" target="_blank"
+              className="text-3xl hover:text-tertiary"
+            >
               <RiTelegramFill />
             </a>
-            <a href="" className="text-3xl hover:text-tertiary">
+            <a
+              href="https://twitter.com/kkermiteth"
+              target="_blank"
+              className="text-3xl hover:text-tertiary"
+            >
               <AiFillTwitterCircle />
             </a>{" "}
             <a href="" className="text-3xl hover:text-tertiary">
@@ -32,8 +39,12 @@ const Header = () => {
         </nav>
         <div className="bg-secondary flex flex-col">
           <nav className="container  head py-3 flex justify-center tracking-wide text-tertiary items-center">
-            <a href="" className="text-4xl font-primary flex items-center gap-2">
-             <img src={logo} alt="" className="w-[3rem] rounded-full"/> killer kermit
+            <a
+              href=""
+              className="text-4xl font-primary flex items-center gap-2"
+            >
+              <img src={logo} alt="" className="w-[3rem] rounded-full" /> killer
+              kermit
             </a>
           </nav>
         </div>
