@@ -27,36 +27,37 @@ const Map = () => {
           </article>
           <article className="h-[350px] flex flex-col justify-center px-6 rounded-2xl bg-tertiary">
             <h1 className="font-primary text-secondary text-3xl">
-              Leap of Launch
+              Army of Frogs
             </h1>
             <ul className="flex flex-col gap-2 ">
-              <li className="font-secondary">air launch of Killer token</li>
               <li className="font-secondary">
-                air launch of Killer token
+                {" "}
+                Development of the Killer Kermit game
+              </li>
+              <li className="font-secondary"></li>{" "}
+              <li className="font-secondary">
+                Introducing the frog protagonist, Killer Kermit
               </li>{" "}
               <li className="font-secondary">
-                Deployment on a secure and decentralized blockchain
-              </li>{" "}
-              <li className="font-secondary">
-                Listing on popular decentralized exchanges
+                Embark on an epic journey through the vibrant and dangerous
+                world
               </li>
             </ul>
           </article>{" "}
           <article className="h-[350px] flex flex-col justify-center px-6 rounded-2xl bg-tertiary">
             <h1 className="font-primary text-secondary text-3xl">
-              Leap of Launch
+              Jumping into Action
             </h1>
             <ul className="flex flex-col gap-2 ">
-              <li className="font-secondary">air launch of Killer token</li>
               <li className="font-secondary">
-                air launch of Killer token
-              </li>{" "}
-              <li className="font-secondary">
-                Deployment on a secure and decentralized blockchain
-              </li>{" "}
-              <li className="font-secondary">
-                Listing on popular decentralized exchanges
+                Launching the game with captivating levels and challenges
               </li>
+              <li className="font-secondary">
+                Launching the game with captivating levels and challenges
+              </li>{" "}
+              <li className="font-secondary">
+                Incorporating interactive gameplay elements and achievements
+              </li>{" "}
             </ul>
           </article>
         </div>
