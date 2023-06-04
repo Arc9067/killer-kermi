@@ -3,7 +3,7 @@ import Logo2 from "../assets/2.png";
 
 const Hero = () => {
   return (
-    <section className="pt-[150px] w-full relative">
+    <section className="pt-[150px] pb-[70px] w-full relative">
       <div className="container grid gap-10 justify-center items-center">
         <article className="flex flex-col gap-4 justify-center items-center">
           <h1 className="font-primary text-3xl max-w-[700px] mx-auto text-center  md:text-6xl">
