@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import Token from "./Components/Token";
 import Map from "./Components/Map";
 import Game from "./Components/Game";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Token />
       <Map />
       <Game />
+      <Footer />
     </div>
   );
 };
