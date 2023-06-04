@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Token from "./Components/Token";
 import Map from "./Components/Map";
+import Game from "./Components/Game";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <Token />
       <Map />
+      <Game />
     </div>
   );
 };

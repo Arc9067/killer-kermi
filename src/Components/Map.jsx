@@ -7,7 +7,7 @@ const Map = () => {
         <h1 className="font-primary text-4xl text-tertiary max-w-[700px] mx-auto text-center  md:text-6xl">
           roadmap
         </h1>
-        <div className="grid mt-7 w-full gap-10  grid-cols-1 md:grid-cols-3 items-center gap-8 justify-between flex-col md:flex-row it">
+        <div className="grid mt-7 w-full gap-10  grid-cols-1 lg:grid-cols-3 items-center gap-8 justify-between flex-col md:flex-row it">
           <article className="h-[350px] flex flex-col justify-center px-6 rounded-2xl bg-tertiary">
             <h1 className="font-primary text-secondary text-3xl">
               Leap of Launch
@@ -25,8 +25,7 @@ const Map = () => {
               </li>
             </ul>
           </article>
-          <article className="h-[350px] rounded-2xl bg-tertiary">
-            {" "}
+          <article className="h-[350px] flex flex-col justify-center px-6 rounded-2xl bg-tertiary">
             <h1 className="font-primary text-secondary text-3xl">
               Leap of Launch
             </h1>
